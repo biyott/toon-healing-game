@@ -1,0 +1,14 @@
+{
+  "name": "toon-healing-game",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/game",
+    "build": "npm run build -w apps/game"
+  },
+  "devDependencies": {}
+}
